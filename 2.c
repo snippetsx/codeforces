@@ -9,14 +9,14 @@ int main(){
     scanf ("%d", &n);
     for (int i = 0; i < n; i++){
         scanf ("%s", &str);
-        if (strcmp(str, "X++") == 0 || strcmp(str, "++X") == 0){
+        if (strcmp (str, "X++") == 0 || strcmp (str, "++X") == 0){
             x++;
         }
-        else if (strcmp(str, "X--") == 0 || strcmp(str, "--X") == 0){
+        else if (strcmp (str, "X--") == 0 || strcmp (str, "--X") == 0){
             x--;
         }
 
     }
-    printf("%d", x);
-
+    printf ("%d", x);
+    return 0;
 }

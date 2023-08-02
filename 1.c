@@ -8,5 +8,5 @@ int main(){
     scanf ("%d" "%d", &n, &m);
     ans = (n * m) / 2;
     printf ("%d", ans);
-    
+    return 0;
 }

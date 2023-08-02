@@ -7,4 +7,5 @@ int main(){
     scanf ("%s", &str);
     str[0] = toupper(str[0]);
     printf("%s", str);
+    return 0;
 }
