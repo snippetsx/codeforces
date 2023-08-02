@@ -6,12 +6,12 @@ int main(){
     int n;
     int v;
     char state[5] = "EASY";
-    scanf("%d", &n);
+    scanf ("%d", &n);
     for (int i = 0; i < n; i++){
-        scanf("%d", &v);
+        scanf ("%d", &v);
         if (v == 1){
-            strcpy(state, "HARD");
+            strcpy (state, "HARD");
         }
     }
-    printf("%s", state);
+    printf ("%s", state);
 }
