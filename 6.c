@@ -1,6 +1,5 @@
 // https://codeforces.com/problemset/problem/977/A
 #include <stdio.h>
-#include <ctype.h>
 
 int main(){
     int n;
@@ -11,7 +10,7 @@ int main(){
             n = n / 10;
         } 
         else if (n % 10 != 0){
-            n = n - 1;
+            n--;
         }
     }
     printf ("%d", n);
