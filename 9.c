@@ -14,4 +14,5 @@ int main(){
         }
     }
     printf ("%s", state);
+    return 0;
 }
