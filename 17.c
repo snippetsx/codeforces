@@ -1,4 +1,4 @@
-// PRESET
+// https://codeforces.com/problemset/problem/546/A
 #include <stdio.h>
 #include <ctype.h>
 
