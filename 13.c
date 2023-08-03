@@ -8,7 +8,7 @@ int main(){
     scanf ("%d", &n);
     int cnt = 0;
     char fig[14];
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++){
     	scanf ("%s", &fig);
     	if (strcmp (fig, "Tetrahedron")){
     		cnt += 4;
